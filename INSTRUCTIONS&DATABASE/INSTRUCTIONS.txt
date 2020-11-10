@@ -1,0 +1,21 @@
+HOW TO USE:
+
+1.  Open "INSTRUCTIONS&DATABASE" folder to read the instructions and get the copy of the db.
+2.  Move this folder (OnlineBank) to htdocs.
+3.  Open Xampp, start Apache and Mysql.
+4.  Import "banking_db". I use HeidiSQL to manage my database. PHPmyadmin is also applicable.
+5.  Open your web browser, I have tested Google Chrome and Mozilla Firefox only.
+6.  Every user login (except admin) requires OTP validation. Therefore, every user must have a mobile number to proceed with the registration. (For staff and account holders only)
+7.  The database has previously encoded registrations, please ignore them because the mobile number registered is mine.
+8.  The main page is http://localhost/onlinebank/main.php. This is where the account holders(customers) log in. (Create one first in the admin page)
+9.  If you want to navigate to the admin page, just type http://localhost/onlinebank/admin_login.php.
+10. ADMIN ----  Username is "van0219"  ----  Password is "0219admin".
+11. Bank Personnel(s) are bank tellers or other staff, Bank Account(s) are customers.
+12. Please note your passwords because the system does not save the actual encoded passwords.
+13. If you want to log in as Bank Personnel, go to http://localhost/onlinebank/empLogin.php.
+14. I use Globe Sms API to connect the system and the user through short message service.
+15. Globe/Connect folder has pre-defined usable php codes inside. I only use the Sms.php, Base.php, and Curl.php. The other codes are used in other
+mobile services.
+----
+For ATM/Checkbook Requests, the bank personnel must approve the request.
+For Add Beneficiary, requires bank personnel approval.
