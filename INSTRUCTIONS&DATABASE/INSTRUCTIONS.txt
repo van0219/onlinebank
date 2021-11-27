@@ -1,9 +1,11 @@
 HOW TO USE:
 
+Note: You must already have XAMPP installed in your PC or laptop.
+
 1.  Open "INSTRUCTIONS&DATABASE" folder to read the instructions and get the copy of the db.
-2.  Move this folder (OnlineBank) to htdocs.
+2.  Move this folder (OnlineBank) to htdocs. (Open C://xampp/htdocs)
 3.  Open Xampp, start Apache and Mysql.
-4.  Import "banking_db". I use HeidiSQL to manage my database. PHPmyadmin is also applicable.
+4.  Import "banking_db.sql" to your database. I use HeidiSQL to manage my databases. PHPmyadmin is also applicable.
 5.  Open your web browser, I have tested Google Chrome and Mozilla Firefox only.
 6.  Every user login (except admin) requires OTP validation. Therefore, every user must have a mobile number to proceed with the registration. (For staff and account holders only)
 7.  The database has previously encoded registrations, please ignore them because the mobile number registered is mine.
